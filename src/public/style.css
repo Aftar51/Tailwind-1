@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Graphik, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -552,8 +552,9 @@ video {
   margin: 1.5rem;
 }
 
-.-m-6 {
-  margin: -1.5rem;
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .my-6 {
@@ -561,41 +562,22 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
 .-ml-6 {
   margin-left: -1.5rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
 }
 
 .mt-20 {
   margin-top: 5rem;
 }
 
-.size-44 {
-  width: 11rem;
-  height: 11rem;
-}
-
-.size-2 {
-  width: 0.5rem;
-  height: 0.5rem;
+.size-2\/3 {
+  width: 66.666667%;
+  height: 66.666667%;
 }
 
 .size-2\/4 {
   width: 50%;
   height: 50%;
-}
-
-.size-2\/3 {
-  width: 66.666667%;
-  height: 66.666667%;
 }
 
 .border {
@@ -606,10 +588,6 @@ video {
   padding: 1.5rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -618,20 +596,16 @@ video {
   padding-left: 1.5rem;
 }
 
-.pr-6 {
-  padding-right: 1.5rem;
-}
-
-.pe-6 {
-  padding-inline-end: 1.5rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
