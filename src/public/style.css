@@ -807,11 +807,6 @@ video {
   font-weight: 700;
 }
 
-.first-letter\:text-white::first-letter {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .first-letter\:text-slate-900::first-letter {
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
@@ -830,39 +825,9 @@ video {
   background-color: rgb(165 243 252 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-zinc-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(63 63 70 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-zinc-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(82 82 91 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-zinc-400:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(161 161 170 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-zinc-500:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(113 113 122 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-zinc-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 244 245 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-zinc-200:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(228 228 231 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-zinc-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(212 212 216 / var(--tw-bg-opacity));
 }
 
 .hover\:font-light:hover {
